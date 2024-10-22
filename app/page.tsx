@@ -1,9 +1,9 @@
 import Image from "next/image";
-import mainBg from "./images/main-bg.webp"
-import horse from "./images/horse.png"
-import cliff from "./images/cliff.webp"
-import trees from "./images/trees.webp"
-import stars from "./images/stars.png"
+import mainBg from "../public/main-bg.webp";
+import horse from "../public/horse.png";
+import cliff from "../public/cliff.webp";
+import trees from "../public/trees.webp";
+import stars from "../public/stars.png";
 import Link from "next/link";
 
 export default function Home() {
@@ -26,14 +26,12 @@ export default function Home() {
               Learn more
             </Link>
             <Link href="/my-projects" className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-white text-large max-w-[200px]">
-              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20">
+              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
                 My projects
-              </div>
             </Link>
             <Link href="/contact-me" className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-white text-large max-w-[200px]">
-              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20">
+              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
                 Contact me
-              </div>
             </Link>
           </div>
         </div>
